@@ -1,0 +1,15 @@
+GET http://127.0.0.1:8000/api/loans/
+Content-Type: application/json
+
+# {
+#     "fname":"James",
+#     "lname":"Johnson",
+#     "oname":"JD",
+#     "email":"johndoe@gmail.com",
+#     "dob":"02/12/2000",
+#     "nok":"Jane Doe",
+#     "idnum":"12321215",
+#     "phonenum":"0767676767",
+#     "location":"Nairobi",
+#     "mstatus":"Married"
+# }

@@ -1,0 +1,27 @@
+@mixin layout {
+    .card{
+        background: transparent !important;
+    }
+    .general-layout{
+        padding: 30px !important;
+        background: transparent !important;
+        .form-tab{
+            input[type="text"],input[type="email"],input[type="password"]{
+                background: transparent;
+            }
+        }
+    }
+}
+
+@mixin tables{
+    table{
+        th{
+            font-weight: 800 !important;
+            font-size: 15px;
+            border-bottom: none !important;
+        }
+        th,td{
+            color: #fff;
+        }
+    }
+}
